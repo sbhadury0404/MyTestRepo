@@ -22,6 +22,7 @@ public class AppTest {
         driver.manage().window().maximize();         
         String title = driver.getTitle();
         AssertJUnit.assertTrue(title.equals("Test Automation University | Applitools"));
+        System.out.print(title);
 		
 	}
 	
